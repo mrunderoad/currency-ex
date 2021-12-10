@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Currency Exchange</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Currency Exchange Rates!</h1>
+    </div>
+    <h2>Get your currency exchange rates here using the menu below:</h2>
+    <form id="formOne" type="submit">
+      <label class="usd">$$$</label>
+      <input id="amount" for="currencyExchange" type="number" placeholder="USD">
+      
+      <br>
+      <div class="radio">
+        <label>European Euro</label>
+        <input type="radio" name="currency" value="EUR" id="eur" checked>
+      </div>
+      <div class="radio">
+        <label>Great British Pound</label>
+        <input type="radio" name="currency" value="GBP" id="gbp">
+      </div>
+      <div class="radio">
+        <label>Canadian Dollar</label>
+          <input type="radio" name="currency" value="CAD" id="cad">
+      </div>
+      <div class="radio">
+        <label>Australian Dollar</label>
+        <input type="radio" name="currency" value="AUD" id="aud">  
+      </div>
+      <div class="radio">
+        <label>Japanese Yen</label>
+        <input type="radio" name="currency" value="JPY" id="jpy"> 
+      </div>
+      <button class="btn" id="exchangeRate" type="submit">See your exchange!</button>
+    </form>
+    <h3>Your rate is: <span id="result"></span></h3>
+    <h3><span id="showError"></span></h3>
+    <div class="row">
+    <a href="https://www.investopedia.com/articles/forex/11/why-trade-forex.asp">
+    <div class="card">
+     <h4>Information on currency exchanges can be found by clicking this box.</h4>
+    </div>
+    </a>
+    <div class="card">
+      <h5>THANKS FOR CHECKING THIS OUT!</h5>
+    </div>
+    </div>
+  </div>
+</body>
+
+</html>

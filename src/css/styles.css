@@ -1,0 +1,85 @@
+body {
+  background-image: url("https://ychef.files.bbci.co.uk/960_540/p06y5y5s.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: rgba(6, 255, 48, 0.425);
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 390px;
+  margin-left: 360px;
+  border: 4px inset black;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(27, 32, 17);
+  text-shadow: 2px 2px darkgoldenrod;
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  align-items: center;
+}
+
+.amount {
+  width: 50%;
+  margin-left: px;
+  color: rgb(42, 150, 9);
+  text-shadow: 1px 1px black;
+  background-color: rgba(238, 212, 95, 0.712);
+}
+
+.usd {
+  margin-left: 520px;
+}
+
+.radio {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+  margin-top: 30px;
+  background-color: sienna;
+  color: aliceblue;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: khaki;
+  margin-top: 20px;
+  margin-left: 570px;
+}
+
+.card {
+  margin-right: 800px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: url("https://www.tellermate.com/us/wp-content/uploads/sites/8/2020/05/Cash-US.jpg"); 
+}
+
+h4 {
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+h5 {
+  font-size: 60px;
+  text-align: center;
+  
+}
